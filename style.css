@@ -1,0 +1,224 @@
+@font-face {
+    font-family: LilexNerdFont;
+    src: url("fonts/LilexNerdFont-Regular.ttf");
+}
+
+@font-face {
+    font-family: LilexNerdFont;
+    font-weight: bold;
+    src: url("fonts/LilexNerdFont-Bold.ttf");
+}
+
+html,
+body {
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    font-family: LilexNerdFont;
+    margin: 0;
+    background-color: #202020;
+    color: #dfdfdf
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: #192020;
+    color: #ffffff;
+    line-height: 2px
+}
+
+.white-hr {
+    width: 100%;
+    height: 4px;
+    border-style: none;
+    color: #dfdfdf;
+    background-color: #dfdfdf;
+    margin: 0px
+}
+
+.red-hr {
+    width: 100%;
+    height: 4px;
+    border-style: none;
+    color: #dc2332;
+    background-color: #dc2332;
+    margin-top: 6px
+}
+
+.terminal-top {
+    display: block;
+    position: absolute;
+    top: 30%;
+    transform: translate(0, -30%);
+    padding-left: 1em;
+    line-height: 12px;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: row;
+    height: min-content;
+    padding: 1em;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    gap: 1em;
+    row-gap: 1em;
+    column-gap: 1em;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+
+.main-body-image {
+    transform: translate(0, 23%)
+}
+
+.yellow {
+    color: #f9af26
+}
+
+.red {
+    color: #dc2332
+}
+
+.white {
+    color: #dfdfdf
+}
+
+.main-body-text {
+    padding: "10px";
+    margin-left: "2px";
+    max-width: 900px;
+}
+
+.hidden-link-yellow {
+    text-decoration: none;
+    color: inherit;
+    text-shadow: none;
+    transition: .1s color, .1s text-shadow;
+    cursor: pointer
+}
+
+.hidden-link-yellow:hover {
+    color: #f9af26;
+    text-shadow: 0 0 2px #f9af26
+}
+
+.hidden-link-red {
+    text-decoration: none;
+    color: inherit;
+    text-shadow: none;
+    transition: .1s color, .1s text-shadow;
+    cursor: pointer
+}
+
+.hidden-link-red:hover {
+    color: #dc2332;
+    text-shadow: 0 0 2px #dc2332
+}
+
+.visible-red-link {
+    color: #dc2332;
+    text-decoration: none;
+    text-shadow: none;
+    transition: .1s color, .1s text-shadow;
+    cursor: pointer
+}
+
+.visible-red-link:hover {
+    color: #dc2332;
+    text-shadow: 0 0 2px #dc2332
+}
+
+.visible-red-link-underlined {
+    color: #dc2332;
+    text-decoration: underline;
+    text-shadow: none;
+    transition: .1s color, .1s text-shadow;
+    cursor: pointer
+}
+
+.visible-red-link-underlined:hover {
+    color: #dc2332;
+    text-shadow: 0 0 2px #dc2332
+}
+
+.visible-yellow-link {
+    color: #f9af26;
+    text-decoration: none;
+    text-shadow: none;
+    transition: .1s color, .1s text-shadow;
+    cursor: pointer
+}
+
+.visible-yellow-link:hover {
+    color: #f9af26;
+    text-shadow: 0 0 2px #f9af26
+}
+
+.copy {
+    color: #f9af26;
+    text-decoration: none;
+    text-shadow: none;
+    transition: .1s color, .1s text-shadow;
+    cursor: pointer;
+}
+
+.copy:hover {
+    color: #f9af26;
+    text-shadow: 0 0 2px #f9af26;
+}
+
+.spacer {
+    flex: 1;
+}
+
+audio {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #202020;
+    color: #202020;
+}
+
+.grey-bg {
+    background-color: #6c7086
+}
+
+.red-bg {
+    background-color: #d54e36
+}
+
+.green-bg {
+    background-color: #75e394
+}
+
+.yellow-bg {
+    background-color: #ffb327
+}
+
+.magenta-bg {
+    background-color: #f78bee
+}
+
+.blue-bg {
+    background-color: #6ecaeb
+}
+
+.lilac-bg {
+    background-color: #a7a2f4
+}
+
+.white-bg {
+    background-color: #fdf0ed
+}
